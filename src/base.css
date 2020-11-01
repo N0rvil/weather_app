@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+}
+
+
+
+
+.date {
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.date__day {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.date__time {
+    font-size: 5rem;
+    font-weight: 400;
+}
