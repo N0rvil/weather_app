@@ -127,7 +127,7 @@ function RemoveAccents(strAccents) {
     .catch(err => {
 	    console.log(err)
     });
-            }, 1000)
+            }, 1200)
          )
     } else {
         alert('sorry something is wrong');
